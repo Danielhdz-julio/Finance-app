@@ -44,6 +44,4 @@ Para correr pruebas:
 flutter test
 ```
 
-## Descripción para CV
 
-Desarrollé una aplicación móvil en Flutter para registrar gastos diarios y analizar hábitos de consumo semanal. Implementé navegación, componentes reutilizables, validaciones básicas y pruebas funcionales sobre los flujos principales de la app.
