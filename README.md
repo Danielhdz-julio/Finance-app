@@ -1,47 +1,80 @@
-# Rutina Gastos
+<div align="center">
 
-App móvil hecha con Flutter para registrar gastos pequeños del día a día y ver en qué se va el dinero durante la semana.
+# 💸 Rutina Gastos
 
-La idea nació de algo simple: muchas veces no son los gastos grandes los que desordenan el presupuesto, sino los pagos pequeños que se repiten sin darnos cuenta.
+### Track your daily expenses and discover your spending habits.
 
-## Funciones
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-34A853?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Testing-Flutter%20Test-FFCA28?style=for-the-badge" />
+</p>
 
-- Registro de gastos diarios.
-- Clasificación por categoría.
-- Resumen semanal.
-- Lista de movimientos recientes.
-- Vista de hábitos de consumo.
-- Interfaz simple y pensada para uso rápido.
+<p align="center">
+  <img src="assets/demo.gif" width="280" alt="Rutina Gastos Demo">
+</p>
 
-## Tecnologías
+> Small expenses create big habits.  
+> Rutina Gastos helps users understand where their money goes every week.
 
-- Flutter
-- Dart
-- Widgets personalizados
-- Manejo de estado local con `setState`
-- Pruebas básicas con Flutter Test
+</div>
 
-## Enfoque QA
+---
 
-Además del desarrollo de la interfaz, se consideraron escenarios de prueba como:
+## ✨ Overview
 
-- Validación de campos vacíos.
-- Registro correcto de montos.
-- Cálculo del total semanal.
-- Visualización correcta de categorías.
-- Flujo básico de navegación.
+Rutina Gastos is a Flutter mobile application designed to register everyday expenses and identify spending patterns over time.
 
-## Cómo correr el proyecto
+The project was inspired by a simple idea: financial imbalance often comes from repeated small purchases rather than large one-time expenses. By recording daily transactions such as coffee, transportation, and utility payments, users gain better visibility into their financial habits.
 
-```bash
-flutter pub get
-flutter run
-```
+---
 
-Para correr pruebas:
+## 🚀 Features
 
-```bash
-flutter test
-```
+- ➕ Add daily expenses
+- 🏷️ Categorize transactions
+- 📊 Weekly spending summary
+- 🔍 Detect highest spending category
+- 📝 Recent transactions history
+- ✅ Input validation
+- 📱 Responsive and clean UI
+- 🧪 Widget testing
 
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|----------|----------|
+| Flutter | Cross-platform development |
+| Dart | Programming language |
+| Material Design 3 | Modern UI components |
+| setState | Local state management |
+| Intl | Date formatting |
+| Flutter Test | Automated testing |
+
+---
+
+## 🧪 QA Approach
+
+This project also reflects my Quality Assurance background. Test scenarios were considered during development to validate:
+
+- Empty fields
+- Invalid amounts
+- Weekly total calculations
+- Category assignments
+- Main navigation flow
+
+---
+
+## 📂 Project Structure
+
+```text
+lib/
+├── data/
+├── models/
+├── screens/
+├── widgets/
+└── main.dart
 
